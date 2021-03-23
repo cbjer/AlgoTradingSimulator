@@ -7,6 +7,7 @@ public class PoissonProcess {
     private Double nextWaitTimeSeconds;
     private long previousEventTime;
     private Random uniformRandomGenerator;
+
     private static final Double NANO_SECONDS_IN_SECOND = 1e9;
 
     PoissonProcess(Double lambda) {

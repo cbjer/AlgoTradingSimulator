@@ -11,6 +11,7 @@ public class RandomWalk{
     private long timeOfLastSample;
     private Double latestLevel;
     private Random randomGenerator;
+
     private static final Double NANO_SECONDS_TO_DAYS = 1e9 * 60 * 60 * 24.0;
 
     RandomWalk(Double meanReversionFactor, Double drift, Double sigma, Double initialValue) {

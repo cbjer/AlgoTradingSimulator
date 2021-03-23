@@ -7,6 +7,7 @@ import java.util.Random;
 public class QuoteGenerator {
     private PoissonProcess poissonProcess;
     private Random randomGenerator;
+
     private static final Double AVERAGE_QUOTES_PER_SECOND_RATE = 0.5;
     private static final Integer MIN_REQUEST_SIZE = 100000;
     private static final Integer REQUEST_STEP_SIZE = 100000;

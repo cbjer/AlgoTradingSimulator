@@ -6,10 +6,13 @@ public class QuoteRequest {
     private Integer size;
     private Integer direction;
     private LocalDateTime quoteReceiveTime;
-    private static final Integer MIN_SIZE = 0;
-    private static final Integer MAX_SIZE = 20000000;
+
     public static final Integer CLIENT_BUY_DIRECTION = 1;
     public static final Integer CLIENT_SELL_DIRECTION = -1;
+    private static final Integer MIN_SIZE = 0;
+    private static final Integer MAX_SIZE = 1000000000;
+    private static final Character CLIENT_BUY_STRING = 'B';
+    private static final Character CLIENT_SELL_STRING = 'S';
 
     QuoteRequest(Integer size, Integer direction) {
         checkValidQuoteArguments(size, direction);
@@ -32,7 +35,14 @@ public class QuoteRequest {
 
     @Override
     public String toString() {
-        return "Quote Request. Size: " + size + ". Direction: " + direction + ". Time: " + this.quoteReceiveTime;
+        return "RFQ. Size: " + this.size + " Dir: " + getDirectionSymbol() + ". Time: " + this.quoteReceiveTime.toString();
+    }
+
+    private Character getDirectionSymbol() {
+        if (this.direction.equals(CLIENT_BUY_DIRECTION))
+            return CLIENT_BUY_STRING;
+        else
+            return CLIENT_SELL_STRING;
     }
 
     private void checkValidQuoteArguments(Integer size, Integer direction) {

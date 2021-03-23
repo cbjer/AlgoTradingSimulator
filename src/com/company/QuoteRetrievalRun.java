@@ -4,14 +4,13 @@ import java.util.concurrent.TimeUnit;
 
 public class QuoteRetrievalRun implements Runnable {
     private QuoteListener quoteListener;
+    private SimpleLogger quoteRequestLogger;
 
     QuoteRetrievalRun(QuoteListener quoteListener) {
         this.quoteListener = quoteListener;
     }
 
     public void run() {
-        System.out.println("Starting quoteRetrieval thread");
-        int loops = 0;
         try {
             while (true) {
                 this.quoteListener.checkForNewQuotes();
@@ -19,6 +18,7 @@ public class QuoteRetrievalRun implements Runnable {
             }
         }
         catch (Exception e) {
+            e.printStackTrace();
             System.out.println("Caught thread issue in quote retrieval");
         }
     }

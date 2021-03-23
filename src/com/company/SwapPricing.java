@@ -1,31 +1,32 @@
 package com.company;
 
 public final class SwapPricing {
-    private static final Double ROUNDING_FACTOR = 1000.0;
+    private static final Double ROUNDING_FACTOR = 100000000.0;
     private static final Double BID_OFFER_ADJUSTMENT = 0.2 / 10000.0;
     private static final Double MIN_SIZE_ADJ = 1.0;
-    private static final Double MAX_SIZE_ADJ = 10.0;
-    private static final Integer MIN_INTERPOLATE_SIZE = 100000;
-    private static final Integer MAX_INTERPOLATE_SIZE = 10000000;
+    private static final Double MAX_SIZE_ADJ = 3.0;
+    private static final Double MIN_INTERPOLATE_SIZE = 100000.0;
+    private static final Double MAX_INTERPOLATE_SIZE = 10000000.0;
 
     private SwapPricing(){}
 
-    public static Double getSwapSpreadEstimate(Double bondSpread, Double assetSwapSpread) {
-        return bondSpread + assetSwapSpread;
-    }
-
-    public static Double getSwapSpreadEstimate(MarketDataFeed marketDataFeed) {
-        return marketDataFeed.getBondSpread() + marketDataFeed.getAssetSwapSpread();
-    }
-
-    public static Double priceQuoteRequest(MarketDataFeed marketDataFeed, QuoteRequest quoteRequest) {
+    public static QuoteReply priceQuoteRequest(MarketDataFeed marketDataFeed, QuoteRequest quoteRequest) {
         Double swapMid = getSwapSpreadEstimate(marketDataFeed);
         return priceQuoteRequest(swapMid, quoteRequest);
     }
 
-    public static Double priceQuoteRequest(Double swapMid, QuoteRequest quoteRequest) {
-        Double rawPrice = swapMid + getBidOfferAdjustment(quoteRequest);
-        return roundPrice(rawPrice);
+    public static QuoteReply priceQuoteRequest(Double swapMid, QuoteRequest quoteRequest) {
+        Double bidOfferAdjustment = getBidOfferAdjustment(quoteRequest);
+        Double roundedPrice = roundPrice(swapMid + bidOfferAdjustment);
+        return new QuoteReply(quoteRequest, roundedPrice, swapMid, bidOfferAdjustment);
+    }
+
+    private static Double getSwapSpreadEstimate(Double bondSpread, Double assetSwapSpread) {
+        return bondSpread + assetSwapSpread;
+    }
+
+    private static Double getSwapSpreadEstimate(MarketDataFeed marketDataFeed) {
+        return getSwapSpreadEstimate(marketDataFeed.getBondSpread(), marketDataFeed.getAssetSwapSpread());
     }
 
     private static Double roundPrice(Double price) {
