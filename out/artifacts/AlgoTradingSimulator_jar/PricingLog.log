@@ -1,0 +1,44 @@
+Mar 23, 2021 8:48:38 PM com.company.SimpleLogger log
+INFO: PriceShown: 0.0025362 Mid: 0.0024936 BO: 0.0000426 | RFQ. Size: 5700000 Dir: B. Time: 2021-03-23T20:48:36.160353
+Mar 23, 2021 8:48:42 PM com.company.SimpleLogger log
+INFO: PriceShown: 0.0024722 Mid: 0.0025059 BO: -0.0000337 | RFQ. Size: 3500000 Dir: S. Time: 2021-03-23T20:48:41.292094
+Mar 23, 2021 8:48:44 PM com.company.SimpleLogger log
+INFO: PriceShown: 0.0024611 Mid: 0.0025009 BO: -0.0000398 | RFQ. Size: 5000000 Dir: S. Time: 2021-03-23T20:48:42.750644
+Mar 23, 2021 8:48:46 PM com.company.SimpleLogger log
+INFO: PriceShown: 0.0025309 Mid: 0.0025020 BO: 0.0000289 | RFQ. Size: 2300000 Dir: B. Time: 2021-03-23T20:48:43.936280
+Mar 23, 2021 8:48:48 PM com.company.SimpleLogger log
+INFO: PriceShown: 0.0025218 Mid: 0.0024917 BO: 0.0000301 | RFQ. Size: 2600000 Dir: B. Time: 2021-03-23T20:48:45.252883
+Mar 23, 2021 8:48:52 PM com.company.SimpleLogger log
+INFO: PriceShown: 0.0024813 Mid: 0.0025029 BO: -0.0000216 | RFQ. Size: 500000 Dir: S. Time: 2021-03-23T20:48:50.596426
+Mar 23, 2021 8:48:54 PM com.company.SimpleLogger log
+INFO: PriceShown: 0.0024509 Mid: 0.0025057 BO: -0.0000547 | RFQ. Size: 8700000 Dir: S. Time: 2021-03-23T20:48:53.934274
+Mar 23, 2021 8:48:56 PM com.company.SimpleLogger log
+INFO: PriceShown: 0.0025679 Mid: 0.0025083 BO: 0.0000596 | RFQ. Size: 9900000 Dir: B. Time: 2021-03-23T20:48:54.793016
+Mar 23, 2021 8:48:58 PM com.company.SimpleLogger log
+INFO: PriceShown: 0.0025585 Mid: 0.0025118 BO: 0.0000467 | RFQ. Size: 6700000 Dir: B. Time: 2021-03-23T20:48:56.841089
+Mar 23, 2021 8:49:00 PM com.company.SimpleLogger log
+INFO: PriceShown: 0.0024653 Mid: 0.0025144 BO: -0.0000491 | RFQ. Size: 7300000 Dir: S. Time: 2021-03-23T20:48:57.225282
+Mar 23, 2021 8:49:02 PM com.company.SimpleLogger log
+INFO: PriceShown: 0.0024852 Mid: 0.0025133 BO: -0.0000281 | RFQ. Size: 2100000 Dir: S. Time: 2021-03-23T20:48:57.721908
+Mar 23, 2021 8:49:04 PM com.company.SimpleLogger log
+INFO: PriceShown: 0.0025411 Mid: 0.0025062 BO: 0.0000349 | RFQ. Size: 3800000 Dir: B. Time: 2021-03-23T20:49:02.236699
+Mar 23, 2021 8:49:08 PM com.company.SimpleLogger log
+INFO: PriceShown: 0.0024437 Mid: 0.0025000 BO: -0.0000564 | RFQ. Size: 9100000 Dir: S. Time: 2021-03-23T20:49:07.880625
+Mar 23, 2021 8:49:10 PM com.company.SimpleLogger log
+INFO: PriceShown: 0.0024643 Mid: 0.0024896 BO: -0.0000253 | RFQ. Size: 1400000 Dir: S. Time: 2021-03-23T20:49:09.689835
+Mar 23, 2021 8:49:16 PM com.company.SimpleLogger log
+INFO: PriceShown: 0.0024321 Mid: 0.0024893 BO: -0.0000572 | RFQ. Size: 9300000 Dir: S. Time: 2021-03-23T20:49:14.416554
+Mar 23, 2021 8:49:18 PM com.company.SimpleLogger log
+INFO: PriceShown: 0.0024525 Mid: 0.0024814 BO: -0.0000289 | RFQ. Size: 2300000 Dir: S. Time: 2021-03-23T20:49:16.344841
+Mar 23, 2021 8:49:20 PM com.company.SimpleLogger log
+INFO: PriceShown: 0.0024321 Mid: 0.0024856 BO: -0.0000535 | RFQ. Size: 8400000 Dir: S. Time: 2021-03-23T20:49:16.671015
+Mar 23, 2021 8:49:22 PM com.company.SimpleLogger log
+INFO: PriceShown: 0.0025304 Mid: 0.0024825 BO: 0.0000479 | RFQ. Size: 7000000 Dir: B. Time: 2021-03-23T20:49:18.084193
+Mar 23, 2021 8:49:24 PM com.company.SimpleLogger log
+INFO: PriceShown: 0.0024430 Mid: 0.0024803 BO: -0.0000374 | RFQ. Size: 4400000 Dir: S. Time: 2021-03-23T20:49:18.195054
+Mar 23, 2021 8:49:26 PM com.company.SimpleLogger log
+INFO: PriceShown: 0.0025023 Mid: 0.0024818 BO: 0.0000204 | RFQ. Size: 200000 Dir: B. Time: 2021-03-23T20:49:21.009912
+Mar 23, 2021 8:49:28 PM com.company.SimpleLogger log
+INFO: PriceShown: 0.0025223 Mid: 0.0024898 BO: 0.0000325 | RFQ. Size: 3200000 Dir: B. Time: 2021-03-23T20:49:23.379938
+Mar 23, 2021 8:49:30 PM com.company.SimpleLogger log
+INFO: PriceShown: 0.0024624 Mid: 0.0024840 BO: -0.0000216 | RFQ. Size: 500000 Dir: S. Time: 2021-03-23T20:49:25.491118

@@ -1,9 +1,6 @@
 package com.company;
 
 import java.util.concurrent.TimeUnit;
-import java.util.logging.FileHandler;
-import java.util.logging.Logger;
-import java.util.logging.SimpleFormatter;
 
 public class PricingRun implements Runnable {
     private QuoteListener quoteListener;

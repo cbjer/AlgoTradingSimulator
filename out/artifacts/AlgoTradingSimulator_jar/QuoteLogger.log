@@ -1,0 +1,96 @@
+Mar 23, 2021 8:48:36 PM com.company.SimpleLogger log
+INFO: RFQ. Size: 5700000 Dir: B. Time: 2021-03-23T20:48:36.160353
+Mar 23, 2021 8:48:36 PM com.company.SimpleLogger log
+INFO: Remaining Quotes in Queue: 1
+Mar 23, 2021 8:48:41 PM com.company.SimpleLogger log
+INFO: RFQ. Size: 3500000 Dir: S. Time: 2021-03-23T20:48:41.292094
+Mar 23, 2021 8:48:41 PM com.company.SimpleLogger log
+INFO: Remaining Quotes in Queue: 1
+Mar 23, 2021 8:48:42 PM com.company.SimpleLogger log
+INFO: RFQ. Size: 5000000 Dir: S. Time: 2021-03-23T20:48:42.750644
+Mar 23, 2021 8:48:42 PM com.company.SimpleLogger log
+INFO: Remaining Quotes in Queue: 1
+Mar 23, 2021 8:48:43 PM com.company.SimpleLogger log
+INFO: RFQ. Size: 2300000 Dir: B. Time: 2021-03-23T20:48:43.936280
+Mar 23, 2021 8:48:43 PM com.company.SimpleLogger log
+INFO: Remaining Quotes in Queue: 2
+Mar 23, 2021 8:48:45 PM com.company.SimpleLogger log
+INFO: RFQ. Size: 2600000 Dir: B. Time: 2021-03-23T20:48:45.252883
+Mar 23, 2021 8:48:45 PM com.company.SimpleLogger log
+INFO: Remaining Quotes in Queue: 2
+Mar 23, 2021 8:48:50 PM com.company.SimpleLogger log
+INFO: RFQ. Size: 500000 Dir: S. Time: 2021-03-23T20:48:50.596426
+Mar 23, 2021 8:48:50 PM com.company.SimpleLogger log
+INFO: Remaining Quotes in Queue: 1
+Mar 23, 2021 8:48:53 PM com.company.SimpleLogger log
+INFO: RFQ. Size: 8700000 Dir: S. Time: 2021-03-23T20:48:53.934274
+Mar 23, 2021 8:48:53 PM com.company.SimpleLogger log
+INFO: Remaining Quotes in Queue: 1
+Mar 23, 2021 8:48:54 PM com.company.SimpleLogger log
+INFO: RFQ. Size: 9900000 Dir: B. Time: 2021-03-23T20:48:54.793016
+Mar 23, 2021 8:48:54 PM com.company.SimpleLogger log
+INFO: Remaining Quotes in Queue: 1
+Mar 23, 2021 8:48:56 PM com.company.SimpleLogger log
+INFO: RFQ. Size: 6700000 Dir: B. Time: 2021-03-23T20:48:56.841089
+Mar 23, 2021 8:48:56 PM com.company.SimpleLogger log
+INFO: Remaining Quotes in Queue: 1
+Mar 23, 2021 8:48:57 PM com.company.SimpleLogger log
+INFO: RFQ. Size: 7300000 Dir: S. Time: 2021-03-23T20:48:57.225282
+Mar 23, 2021 8:48:57 PM com.company.SimpleLogger log
+INFO: Remaining Quotes in Queue: 2
+Mar 23, 2021 8:48:57 PM com.company.SimpleLogger log
+INFO: RFQ. Size: 2100000 Dir: S. Time: 2021-03-23T20:48:57.721908
+Mar 23, 2021 8:48:57 PM com.company.SimpleLogger log
+INFO: Remaining Quotes in Queue: 3
+Mar 23, 2021 8:49:02 PM com.company.SimpleLogger log
+INFO: RFQ. Size: 3800000 Dir: B. Time: 2021-03-23T20:49:02.236699
+Mar 23, 2021 8:49:02 PM com.company.SimpleLogger log
+INFO: Remaining Quotes in Queue: 1
+Mar 23, 2021 8:49:07 PM com.company.SimpleLogger log
+INFO: RFQ. Size: 9100000 Dir: S. Time: 2021-03-23T20:49:07.880625
+Mar 23, 2021 8:49:07 PM com.company.SimpleLogger log
+INFO: Remaining Quotes in Queue: 1
+Mar 23, 2021 8:49:09 PM com.company.SimpleLogger log
+INFO: RFQ. Size: 1400000 Dir: S. Time: 2021-03-23T20:49:09.689835
+Mar 23, 2021 8:49:09 PM com.company.SimpleLogger log
+INFO: Remaining Quotes in Queue: 1
+Mar 23, 2021 8:49:14 PM com.company.SimpleLogger log
+INFO: RFQ. Size: 9300000 Dir: S. Time: 2021-03-23T20:49:14.416554
+Mar 23, 2021 8:49:14 PM com.company.SimpleLogger log
+INFO: Remaining Quotes in Queue: 1
+Mar 23, 2021 8:49:16 PM com.company.SimpleLogger log
+INFO: RFQ. Size: 2300000 Dir: S. Time: 2021-03-23T20:49:16.344841
+Mar 23, 2021 8:49:16 PM com.company.SimpleLogger log
+INFO: Remaining Quotes in Queue: 1
+Mar 23, 2021 8:49:16 PM com.company.SimpleLogger log
+INFO: RFQ. Size: 8400000 Dir: S. Time: 2021-03-23T20:49:16.671015
+Mar 23, 2021 8:49:16 PM com.company.SimpleLogger log
+INFO: Remaining Quotes in Queue: 2
+Mar 23, 2021 8:49:18 PM com.company.SimpleLogger log
+INFO: RFQ. Size: 7000000 Dir: B. Time: 2021-03-23T20:49:18.084193
+Mar 23, 2021 8:49:18 PM com.company.SimpleLogger log
+INFO: Remaining Quotes in Queue: 3
+Mar 23, 2021 8:49:18 PM com.company.SimpleLogger log
+INFO: RFQ. Size: 4400000 Dir: S. Time: 2021-03-23T20:49:18.195054
+Mar 23, 2021 8:49:18 PM com.company.SimpleLogger log
+INFO: Remaining Quotes in Queue: 3
+Mar 23, 2021 8:49:21 PM com.company.SimpleLogger log
+INFO: RFQ. Size: 200000 Dir: B. Time: 2021-03-23T20:49:21.009912
+Mar 23, 2021 8:49:21 PM com.company.SimpleLogger log
+INFO: Remaining Quotes in Queue: 3
+Mar 23, 2021 8:49:23 PM com.company.SimpleLogger log
+INFO: RFQ. Size: 3200000 Dir: B. Time: 2021-03-23T20:49:23.379938
+Mar 23, 2021 8:49:23 PM com.company.SimpleLogger log
+INFO: Remaining Quotes in Queue: 3
+Mar 23, 2021 8:49:25 PM com.company.SimpleLogger log
+INFO: RFQ. Size: 500000 Dir: S. Time: 2021-03-23T20:49:25.491118
+Mar 23, 2021 8:49:25 PM com.company.SimpleLogger log
+INFO: Remaining Quotes in Queue: 3
+Mar 23, 2021 8:49:27 PM com.company.SimpleLogger log
+INFO: RFQ. Size: 4700000 Dir: S. Time: 2021-03-23T20:49:27.100688
+Mar 23, 2021 8:49:27 PM com.company.SimpleLogger log
+INFO: Remaining Quotes in Queue: 3
+Mar 23, 2021 8:49:27 PM com.company.SimpleLogger log
+INFO: RFQ. Size: 3000000 Dir: B. Time: 2021-03-23T20:49:27.457026
+Mar 23, 2021 8:49:27 PM com.company.SimpleLogger log
+INFO: Remaining Quotes in Queue: 4
