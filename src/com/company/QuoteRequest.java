@@ -41,8 +41,10 @@ public class QuoteRequest {
     private Character getDirectionSymbol() {
         if (this.direction.equals(CLIENT_BUY_DIRECTION))
             return CLIENT_BUY_STRING;
-        else
+        else if (this.direction.equals(CLIENT_SELL_DIRECTION))
             return CLIENT_SELL_STRING;
+        else
+            throw new IllegalArgumentException();
     }
 
     private void checkValidQuoteArguments(Integer size, Integer direction) {
